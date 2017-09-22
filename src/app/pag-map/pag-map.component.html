@@ -33,7 +33,13 @@
 
 
             <div class="col-md-7">
-                <div id="map"></div>
+              <h1>{{ title }}</h1>
+
+    <!-- this creates a google map on the page with the given lat/lng from -->
+    <!-- the component as the initial center of the map: -->
+    <agm-map [latitude]="lat" [longitude]="lng">
+      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
             </div>
 
             <div class="row">
@@ -77,21 +83,3 @@
             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">VAmos ver como será o mini formulario de avaliação</div>
         </div>
     </div>
-
-
-  <script>
-        function initMap() {
-            var uluru = {
-                lat: -15.7801,
-                lng: -47.9292
-            };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 13,
-                center: uluru
-            });
-            /*var marker = new google.maps.Marker({
-              position: uluru,
-              map: map
-            });*/
-        }
-    </script>

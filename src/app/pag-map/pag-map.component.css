@@ -7,6 +7,6 @@
            height: 225px;
        }
 
-       #map {
-           height: 500px;
-       }
+       agm-map {
+     height: 300px;
+   }
