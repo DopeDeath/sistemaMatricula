@@ -1,0 +1,28 @@
+
+body{
+    margin-top:10px;
+}
+
+.jumbotron{
+    margin: 10px;
+    background-color: #ffe200;
+    text-align: center;
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+.nav-item .nav-link.active{
+    background-color: #28a745;
+}
+
+.nav-item .nav-link{
+    border: solid 1px #28a745;
+    color: #28a745;
+}
+
+#controleJub{
+margin: 30px;
+    margin-left: -2px;
+}
