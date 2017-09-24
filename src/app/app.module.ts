@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { PagMapComponent } from './pag-map/pag-map.component';
+import { HelpComponent } from './help/help.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PagMapComponent } from './pag-map/pag-map.component';
     HomeComponent,
     MenuComponent,
     RodapeComponent,
-    PagMapComponent
+    PagMapComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
