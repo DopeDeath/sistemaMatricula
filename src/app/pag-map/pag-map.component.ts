@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'semdf-rodape',
+  selector: 'semdf-pagMap',
   templateUrl: './pag-map.component.html',
   styleUrls: ['./pag-map.component.css']
 })
