@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pag-map.component.css']
 })
 export class PagMapComponent implements OnInit {
-  title: string = 'My first AGM project';
+  
  lat: number = -15.7801;
  lng: number = -47.9292;
 
