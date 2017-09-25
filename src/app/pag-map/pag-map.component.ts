@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pag-map.component.css']
 })
 export class PagMapComponent implements OnInit {
-  
- lat: number = -15.7801;
- lng: number = -47.9292;
+
+ lat: number = -15.7915;
+ lng: number = -47.8892;
+ zoom: number = 13;
 
   constructor() { }
 
