@@ -11,7 +11,7 @@ export class PagMapComponent implements OnInit {
  lng: number = -47.8892;
  zoom: number = 13;
 
- // LUCAS é VIADO que gosta de negão
+
 
   constructor() { }
 
