@@ -12,6 +12,7 @@ import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { PagMapComponent } from './pag-map/pag-map.component';
 import { HelpComponent } from './help/help.component';
+import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HelpComponent } from './help/help.component';
     MenuComponent,
     RodapeComponent,
     PagMapComponent,
-    HelpComponent
+    HelpComponent,
+    AcompanhamentoComponent
   ],
   imports: [
     BrowserModule,
