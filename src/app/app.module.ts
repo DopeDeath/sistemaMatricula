@@ -13,6 +13,7 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { PagMapComponent } from './pag-map/pag-map.component';
 import { HelpComponent } from './help/help.component';
 import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.compone
     RodapeComponent,
     PagMapComponent,
     HelpComponent,
-    AcompanhamentoComponent
+    AcompanhamentoComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
